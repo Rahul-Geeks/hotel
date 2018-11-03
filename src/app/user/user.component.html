@@ -1,0 +1,97 @@
+<div class="container">
+  
+  <div class="row" id="pwd-container">
+    <div class="col-md-4"></div>
+    
+    <div class="col-md-4">
+      <section class="login-form">
+        <form method="post" action="#" role="login">
+          <img src="http://i.imgur.com/RcmcLv4.png" class="img-responsive" alt="" />
+
+          <input type="email" name="email" [(ngModel)]="data.email" placeholder="Email" required class="form-control input-lg" />
+
+          <input type="text" name="name" [(ngModel)]="data.name" placeholder="username" required class="form-control input-lg" />
+
+          <input type="text" name="phNumber" [(ngModel)]="data.phNumber" placeholder="Mobile Number" required class="form-control input-lg" />
+
+          <input type="text" name="address" [(ngModel)]="data.address" placeholder="address" required class="form-control input-lg" />
+          
+          <!-- <input type="password" class="form-control input-lg" id="password" placeholder="Password" required="" /> -->
+          
+          
+          <div class="pwstrength_viewport_progress"></div>
+          
+          
+          <button type="submit" name="go" (click)="insert()" class="btn btn-lg btn-primary btn-block">Sign in</button>
+          <div>
+            <a href="#">Create account</a> or <a href="#">reset password</a>
+          </div>
+          
+        </form>
+        
+        <div class="form-links">
+          <a href="#">www.website.com</a>
+        </div>
+      </section>  
+      </div>
+      
+      <div class="col-md-4"></div>
+      
+
+  </div>
+  
+  <p>
+    <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fbootsnipp.com%2Fiframe%2FW00op" target="_blank"><small>HTML</small><sup>5</sup></a>
+    <br>
+    <br>
+    
+  </p>     
+  
+  
+</div>
+
+
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">S.no.</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Address</th>
+      <th scope="col">UserId</th>
+      <th scope="col">Phone Number</th>
+    </tr>
+  </thead>
+  <tbody [(ngModel)]="stream">
+    <tr *ngFor="let ref of array;let x=index">
+      <th scope="row">{{x+1}}</th>
+      <td>{{ref.name}}</td>
+      <td>{{ref.email}}</td>
+      <td>{{ref.address}}</td>
+      <td>{{ref.userId}}</td>
+      <td>{{ref.phNumber}}</td> 
+    </tr>
+    <!-- <tr>
+      <th scope="row">2</th>
+      <td>{{array[1].name}}</td>
+      <td>{{array[1].email}}</td>
+      <td>{{array[1].address}}</td>
+      <td>{{array[1].userId}}</td>
+      <td>{{array[1].phNumber}}</td>
+    </tr>
+    <tr>
+        <th scope="row">3</th>
+        <td>{{array[2].name}}</td>
+        <td>{{array[2].email}}</td>
+        <td>{{array[2].address}}</td>
+        <td>{{array[2].userId}}</td>
+        <td>{{array[2].phNumber}}</td>
+      </tr> -->
+    
+  </tbody>
+</table>
+<p>{{showData()}}</p>
+
+
+<router-outlet></router-outlet>
