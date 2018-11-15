@@ -11,12 +11,10 @@
 </nav>
 
 <nav class="nav nav-pills nav-justified" style="margin:20px 0px">
-  <a class="nav-item nav-link" id="grid" (click)="gridView()">Grid View</a>
-  <a class="nav-item nav-link" id="table" (click)="tableView()">Table View</a>
-  <a class="nav-item nav-link" id="down" (click)="downView()">Down View</a>
+  <a  *ngFor="let view of views;let i=index" [ngClass]="{'nav-item':true, 'nav-link':true, 'active':viewColor[i]}" style="cursor:pointer;" id="grid" (click)="giveView(i)">{{views[i]}} View</a>
 </nav>
 
-<div [ngSwitch]="views">
+<div [ngSwitch]="view">
   <div *ngSwitchCase="'grid'">
     <div class="album py-5 bg-light" *ngIf="hotels.length > 0; then hotelList else noHotel"></div>
     <ng-template #hotelList>

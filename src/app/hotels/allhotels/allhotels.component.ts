@@ -14,32 +14,24 @@ export class AllhotelsComponent implements OnInit {
   offset = 0;
   count = 5;
   i;
-  views;
+  viewColor: boolean[] = [true,false,false];
+  views = ["grid", "table", "down"];
+  view;
   constructor(private _hotelsSrv: AppRoutingService) { }
 
   ngOnInit() {
     this.setPageLength();
     this.getHotels(this.offset);
-    this.gridView();
+    this.giveView(0);
   }
-  gridView(){
-    let grid = document.getElementById("grid");
-    grid.setAttribute("class","nav-item nav-link active");
-    return this.views = "grid"
+  
+  giveView(index) {
+    for(let count = 0; count < this.views.length; count++){
+      this.viewColor[count] = false;
+    }
+      this.viewColor[index] = true;
+      return this.view = this.views[index];
   }
-  tableView(){
-    let table = document.getElementById("table");
-    table.setAttribute("class","nav-item nav-link active");
-    return this.views = "table"
-  }
-  downView(){
-    let down = document.getElementById("down");
-    down.setAttribute("class","nav-item nav-link active");
-    return this.views = "down"
-  }
-  // gridView(){
-  //   return this.views = "grid"
-  // }
 
   setPageLength() {
     this.pages.length = 3;
