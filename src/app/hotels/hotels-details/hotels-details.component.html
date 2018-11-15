@@ -1,0 +1,11 @@
+<img src="../../../assets/images/ausctr-omni-austin-hotel-downtown-evening-pool.jpg" alt="{{hotel.name}}" height="400px"  width="100%">
+<h1 style="margin-top:50px;">
+  {{hotel.name}}
+</h1>
+<p>{{hotel.description}}</p>
+<h2>Location</h2>
+<p>{{hotel.location.address}}</p>
+<h2>Services Avaialable</h2>
+<ul>
+  <li *ngFor="let service of hotel.services;let i=index">{{service}}</li>
+</ul>

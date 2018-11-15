@@ -1,0 +1,66 @@
+<app-navbar></app-navbar>
+
+<form>
+  <div class="form-row align-items-center">
+    <div class="col-auto my-1">
+      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+      <select class="custom-select mr-sm-2" name="selected"  (click)="ratingHotels()"  id="inlineFormCustomSelect" [(ngModel)]='selectedvalue'>
+        <option selected>Choose...</option>
+        <option name="s" value='4'>4</option>
+        <option name="sdsd" value="5">5</option>
+        <option name="asdjgdj" value="6">6</option>
+      </select>
+    </div>
+    <div class="col-auto my-1">
+      <div class="custom-control custom-checkbox mr-sm-2">
+        <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+        <label class="custom-control-label" for="customControlAutosizing">Remember my preference</label>
+      </div>
+    </div>
+  </div>
+</form>
+
+<div [ngSwitch]="selectedvalue">
+
+  <div *ngSwitchCase="4">
+    <div class="row">
+      <div class="col-sm-6" *ngFor="let hotel4 of hotels;">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{hotel4.name}}</h5>
+            <p class="card-text">{{hotel4.description.slice(0,120)}}...</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="5">
+    <div class="row">
+      <div class="col-sm-6" *ngFor="let hotel5 of hotels;">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{hotel5.name}}</h5>
+            <p class="card-text">{{hotel5.description.slice(0,120)}}...</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="6">
+    <div class="row">
+      <div class="col-sm-6" *ngFor="let hotel6 of hotels;">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{hotel6.name}}</h5>
+            <p class="card-text">{{hotel6.description.slice(0,120)}}...</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

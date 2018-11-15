@@ -1,0 +1,25 @@
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a id="previous" class="page-link disabled"  (click)="getHotels(offset-5)">Previous</a></li>
+    <li class="page-item" *ngFor="let page of pages; let i=index"><a class="page-link" (click)="getHotels(5*(i))">{{i+1}}</a></li>
+    <!-- <li class="page-item"><a class="page-link" (click)="getHotels(5,5)">2</a></li>
+    <li class="page-item"><a class="page-link" (click)="getHotels(10,5)">3</a></li> -->
+    <li class="page-item"><a id="next" class="page-link disabled" (click)="getHotels(offset+5)">Next</a></li>
+  </ul>
+</nav>
+
+<div class="album py-5 bg-light">
+  <div class="container">
+
+    <div class="row">
+      <div class="card" style="width: 18rem;" *ngFor="let hotel of hotels; let i=index">
+        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <div class="card-body">
+          <a routerLink="/hotels/{{hotel._id}}">
+            <h5 class="card-title">{{hotel.name}}</h5>
+          </a>
+          <!-- <p class="card-text">{{duplicateDescription[i]}}...</p> -->
+          <p class="card-text">{{hotel.description.slice(0,150)}}...</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
