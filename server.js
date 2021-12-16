@@ -44,10 +44,13 @@ app.use(function(req,res,next){
 });
 //router linking
 // app.use('/',homeRoutes);
-app.use("/", express.static("dist/my-app"));
 app.use('/api',hotelsRoutes);
 app.use('/api',usersRoutes);
 
+app.use("/", express.static("dist/my-app"));
+app.use("/register", express.static("dist/my-app"));
+app.use("/login", express.static("dist/my-app"));
+app.use("/home", express.static("dist/my-app"));
 
 
 console.log("I m Last Statement Of Server File");

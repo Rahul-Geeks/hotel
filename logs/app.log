@@ -1,91 +1,55 @@
-[2018-10-16T08:03:21.900] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:03:21.902] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:03:41.648] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:03:41.650] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:04:23.583] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:04:23.584] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:04:34.258] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:04:34.264] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:09:30.895] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:09:30.897] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:09:46.619] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:09:46.621] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:10:44.992] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:10:44.993] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:11:44.283] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:11:44.285] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:11:47.482] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:11:47.485] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:14:00.585] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:14:00.586] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:14:14.488] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:14:14.490] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:15:58.085] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:15:58.086] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:17:51.781] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:17:51.784] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:21:22.303] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:21:22.305] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:24:23.811] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:24:23.812] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:24:31.636] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:24:31.637] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:24:37.023] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:24:37.024] [INFO] startup - -----------------------------------------------------
-[2018-10-16T08:25:54.768] [INFO] access -  Uri Hit :POST    /register
-[2018-10-16T08:26:56.229] [INFO] access -  Uri Hit :POST    /api/register
-[2018-10-16T08:27:16.510] [INFO] access -  Uri Hit :POST    /api/user/register
-[2018-10-16T08:27:16.515] [ERROR] error - Failed To Register a User, Required Feilds are Missing
-[2018-10-16T08:27:49.306] [INFO] access -  Uri Hit :POST    /api/user/register
-[2018-10-16T08:27:49.307] [ERROR] error - Failed To Register a User, Required Feilds are Missing
-[2018-10-16T08:28:06.491] [INFO] access -  Uri Hit :POST    /api/user/register
-[2018-10-16T08:28:06.722] [INFO] users - User is Registered SuccessFully with Token :: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmM1NTNiZWNjNTBmZjM5ZTMzNTI1YzkiLCJpYXQiOjE1Mzk2NTg2ODYsImV4cCI6MTUzOTcwMTg4Nn0.qHUK7wBmpNMTZHBPQYi6WXPieOZP58SveEI-DxDBKjs
-[2018-10-16T08:29:43.060] [INFO] access -  Uri Hit :POST    /api/user/login
-[2018-10-16T08:29:43.176] [INFO] users - Login SucessFull ! with Token :: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmM1NTNiZWNjNTBmZjM5ZTMzNTI1YzkiLCJpYXQiOjE1Mzk2NTg3ODMsImV4cCI6MTUzOTcwMTk4M30.fKhoafAK-ycc4200A2zG4UazWP1CTzeXlvXhWO14RMU
-[2018-10-16T08:30:29.274] [INFO] access -  Uri Hit :POST    /api/user/login
-[2018-10-16T08:30:29.376] [INFO] users - Login SucessFull ! with Token :: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmM1NTNiZWNjNTBmZjM5ZTMzNTI1YzkiLCJpYXQiOjE1Mzk2NTg4MjksImV4cCI6MTUzOTcwMjAyOX0.sRNEWe1c-C6ASgfPxd_TuHu_V6tNVtiLAVViBwFXjoE
-[2018-10-16T08:30:38.603] [INFO] access -  Uri Hit :POST    /api/user/login
-[2018-10-16T08:30:38.701] [INFO] users - Login SucessFull ! with Token :: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmM1NTNiZWNjNTBmZjM5ZTMzNTI1YzkiLCJpYXQiOjE1Mzk2NTg4MzgsImV4cCI6MTUzOTcwMjAzOH0.LF7Q5QSCKKXdUAGRdDZEwWPP5_gttKGrSwbiSU8vuIY
-[2018-10-16T08:30:50.913] [INFO] access -  Uri Hit :POST    /api/user/login
-[2018-10-16T08:30:51.013] [INFO] users - Login SucessFull ! with Token :: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmM1NTNiZWNjNTBmZjM5ZTMzNTI1YzkiLCJpYXQiOjE1Mzk2NTg4NTEsImV4cCI6MTUzOTcwMjA1MX0.3grEkoP3AzG0AeQUD1w1kW7zrXZk9gFTcQ6pJ1CUcD8
-[2018-10-16T08:31:42.648] [INFO] access -  Uri Hit :POST    /api/hotels
-[2018-10-16T08:31:47.098] [INFO] access -  Uri Hit :GET    /api/hotels
-[2018-10-16T08:31:47.099] [ERROR] error - Token Not Found !
-[2018-10-16T08:32:15.641] [INFO] access -  Uri Hit :GET    /api/hotels
-[2018-10-16T08:32:15.642] [ERROR] error - Token Not Found !
-[2018-10-16T08:32:31.248] [INFO] access -  Uri Hit :GET    /api/hotels
-[2018-10-16T08:32:31.249] [ERROR] error - Token Not Found !
-[2018-10-16T08:33:00.701] [INFO] access -  Uri Hit :GET    /api/hotels
-[2018-10-16T08:33:00.709] [INFO] users - Valid Token grant access next method trigger
-[2018-10-16T08:44:07.975] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-16T08:44:07.977] [INFO] startup - -----------------------------------------------------
-[2018-10-24T09:16:09.357] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-24T09:16:09.360] [INFO] startup - -----------------------------------------------------
-[2018-10-24T09:16:09.414] [INFO] access -  Uri Hit :GET    /api/hotels
-[2018-10-24T09:16:09.423] [ERROR] error - Token Not Found !
-[2018-10-24T09:19:24.048] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-24T09:19:24.051] [INFO] startup - -----------------------------------------------------
-[2018-10-24T09:19:24.130] [INFO] access -  Uri Hit :GET    /api/hotels
-[2018-10-24T09:21:28.520] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-24T09:21:28.523] [INFO] startup - -----------------------------------------------------
-[2018-10-24T09:21:28.583] [INFO] access -  Uri Hit :GET    /api/hotels
-[2018-10-24T09:26:05.001] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2018-10-24T09:26:05.003] [INFO] startup - -----------------------------------------------------
-[2018-10-24T09:26:05.086] [INFO] access -  Uri Hit :GET    /api/hotels
-[2021-12-16T21:36:29.811] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2021-12-16T21:36:29.812] [INFO] startup - -----------------------------------------------------
-[2021-12-16T21:36:58.067] [INFO] access -  Uri Hit :GET    /
-[2021-12-16T21:36:58.192] [INFO] access -  Uri Hit :GET    /favicon.ico
-[2021-12-16T21:37:13.172] [INFO] access -  Uri Hit :GET    /login
-[2021-12-16T21:41:22.205] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2021-12-16T21:41:22.205] [INFO] startup - -----------------------------------------------------
-[2021-12-16T21:42:28.706] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2021-12-16T21:42:28.708] [INFO] startup - -----------------------------------------------------
-[2021-12-16T21:42:48.619] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2021-12-16T21:42:48.620] [INFO] startup - -----------------------------------------------------
-[2021-12-16T21:43:14.924] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2021-12-16T21:43:14.926] [INFO] startup - -----------------------------------------------------
-[2021-12-16T21:43:58.695] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2021-12-16T21:43:58.698] [INFO] startup - -----------------------------------------------------
-[2021-12-16T21:44:12.318] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
-[2021-12-16T21:44:12.319] [INFO] startup - -----------------------------------------------------
+[2021-12-16T22:19:03.118] [INFO] access -  Uri Hit :GET    /assets/images/jcr_content.jpeg
+[2021-12-16T22:20:58.332] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
+[2021-12-16T22:20:58.333] [INFO] startup - -----------------------------------------------------
+[2021-12-16T22:21:10.471] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
+[2021-12-16T22:21:10.472] [INFO] startup - -----------------------------------------------------
+[2021-12-16T22:21:12.817] [INFO] access -  Uri Hit :GET    /register
+[2021-12-16T22:21:12.824] [INFO] access -  Uri Hit :GET    /register/
+[2021-12-16T22:21:12.847] [INFO] access -  Uri Hit :GET    /assets/bootstrap-4.1.3-dist/css/bootstrap.css
+[2021-12-16T22:21:12.853] [INFO] access -  Uri Hit :GET    /assets/jquery-3.3.1.slim.min.js
+[2021-12-16T22:21:12.857] [INFO] access -  Uri Hit :GET    /assets/bootstrap-4.1.3-dist/js/bootstrap.js
+[2021-12-16T22:21:12.865] [INFO] access -  Uri Hit :GET    /runtime.js
+[2021-12-16T22:21:12.866] [INFO] access -  Uri Hit :GET    /polyfills.js
+[2021-12-16T22:21:12.881] [INFO] access -  Uri Hit :GET    /styles.js
+[2021-12-16T22:21:12.882] [INFO] access -  Uri Hit :GET    /vendor.js
+[2021-12-16T22:21:12.885] [INFO] access -  Uri Hit :GET    /main.js
+[2021-12-16T22:21:12.943] [INFO] access -  Uri Hit :GET    /assets/bootstrap-4.1.3-dist/js/bootstrap.js.map
+[2021-12-16T22:21:12.959] [INFO] access -  Uri Hit :GET    /assets/bootstrap-4.1.3-dist/css/bootstrap.css.map
+[2021-12-16T22:21:12.960] [INFO] access -  Uri Hit :GET    /runtime.js.map
+[2021-12-16T22:21:12.967] [INFO] access -  Uri Hit :GET    /polyfills.js.map
+[2021-12-16T22:21:13.008] [INFO] access -  Uri Hit :GET    /styles.js.map
+[2021-12-16T22:21:13.119] [INFO] access -  Uri Hit :GET    /vendor.js.map
+[2021-12-16T22:21:13.424] [INFO] access -  Uri Hit :GET    /main.js.map
+[2021-12-16T22:21:15.672] [INFO] access -  Uri Hit :GET    /assets/images/ausctr-omni-austin-hotel-downtown-evening-pool.jpg
+[2021-12-16T22:21:15.674] [INFO] access -  Uri Hit :GET    /assets/images/ginger-ahmedabad-drive-in-road-hotel-th-1.jpg
+[2021-12-16T22:21:15.676] [INFO] access -  Uri Hit :GET    /assets/images/jcr_content.jpeg
+[2021-12-16T22:26:03.001] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
+[2021-12-16T22:26:03.002] [INFO] startup - -----------------------------------------------------
+[2021-12-16T22:26:15.614] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
+[2021-12-16T22:26:15.615] [INFO] startup - -----------------------------------------------------
+[2021-12-16T22:26:20.695] [INFO] access -  Uri Hit :GET    /home
+[2021-12-16T22:26:20.702] [INFO] access -  Uri Hit :GET    /home/
+[2021-12-16T22:26:20.759] [INFO] access -  Uri Hit :GET    /assets/bootstrap-4.1.3-dist/css/bootstrap.css
+[2021-12-16T22:26:20.760] [INFO] access -  Uri Hit :GET    /assets/jquery-3.3.1.slim.min.js
+[2021-12-16T22:26:20.768] [INFO] access -  Uri Hit :GET    /assets/bootstrap-4.1.3-dist/js/bootstrap.js
+[2021-12-16T22:26:20.770] [INFO] access -  Uri Hit :GET    /runtime.js
+[2021-12-16T22:26:20.772] [INFO] access -  Uri Hit :GET    /polyfills.js
+[2021-12-16T22:26:20.798] [INFO] access -  Uri Hit :GET    /styles.js
+[2021-12-16T22:26:20.799] [INFO] access -  Uri Hit :GET    /vendor.js
+[2021-12-16T22:26:20.803] [INFO] access -  Uri Hit :GET    /main.js
+[2021-12-16T22:26:20.847] [INFO] access -  Uri Hit :GET    /assets/bootstrap-4.1.3-dist/css/bootstrap.css.map
+[2021-12-16T22:26:20.858] [INFO] access -  Uri Hit :GET    /assets/bootstrap-4.1.3-dist/js/bootstrap.js.map
+[2021-12-16T22:26:20.862] [INFO] access -  Uri Hit :GET    /runtime.js.map
+[2021-12-16T22:26:20.927] [INFO] access -  Uri Hit :GET    /polyfills.js.map
+[2021-12-16T22:26:21.406] [INFO] access -  Uri Hit :GET    /styles.js.map
+[2021-12-16T22:26:21.406] [INFO] access -  Uri Hit :GET    /vendor.js.map
+[2021-12-16T22:26:21.407] [INFO] access -  Uri Hit :GET    /main.js.map
+[2021-12-16T22:26:31.256] [INFO] access -  Uri Hit :GET    /assets/images/ausctr-omni-austin-hotel-downtown-evening-pool.jpg
+[2021-12-16T22:26:31.257] [INFO] access -  Uri Hit :GET    /assets/images/ginger-ahmedabad-drive-in-road-hotel-th-1.jpg
+[2021-12-16T22:26:31.258] [INFO] access -  Uri Hit :GET    /assets/images/jcr_content.jpeg
+[2021-12-16T22:28:39.590] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
+[2021-12-16T22:28:39.590] [INFO] startup - -----------------------------------------------------
+[2021-12-16T22:28:57.381] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
+[2021-12-16T22:28:57.382] [INFO] startup - -----------------------------------------------------
+[2021-12-16T22:29:12.692] [INFO] startup - Server is Runnning on http://127.0.0.1:3030
+[2021-12-16T22:29:12.693] [INFO] startup - -----------------------------------------------------
